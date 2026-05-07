@@ -1,0 +1,60 @@
+Index
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModernShop | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">ModernShop</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="pages/products.html">Products</a>
+                <a href="pages/cart.html">Cart</a>
+                <a href="pages/support.html">Support</a>
+                <a href="pages/login.html" class="btn" style="color: white; padding: 0.5rem 1rem;">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Upgrade Your Lifestyle</h1>
+            <p>Discover the latest trends in tech and fashion. Premium quality, delivered to your door.</p>
+            <a href="pages/products.html" class="btn">Shop Now</a>
+        </section>
+
+        <h2 style="margin-bottom: 1.5rem;">Featured Products</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="assets/placeholder.jpg" alt="Wireless Headphones">
+                <h3>Wireless Headphones</h3>
+                <p class="price">$199.99</p>
+                <button class="btn" onclick="addToCart('Wireless Headphones', 199.99)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/placeholder.jpg" alt="Smart Watch">
+                <h3>Smart Watch</h3>
+                <p class="price">$249.99</p>
+                <button class="btn" onclick="addToCart('Smart Watch', 249.99)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/placeholder.jpg" alt="Minimalist Backpack">
+                <h3>Minimalist Backpack</h3>
+                <p class="price">$79.99</p>
+                <button class="btn" onclick="addToCart('Minimalist Backpack', 79.99)">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ModernShop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
